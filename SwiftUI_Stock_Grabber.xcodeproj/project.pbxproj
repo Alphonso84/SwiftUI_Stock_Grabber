@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00C6AFA26CEFAD70097B75B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C6AF926CEFAD70097B75B /* Networking.swift */; };
+		D00C6AFC26CEFB000097B75B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C6AFB26CEFB000097B75B /* Model.swift */; };
 		D0712ED926CE1DF600AA3D7D /* SwiftUI_Stock_GrabberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0712ED826CE1DF600AA3D7D /* SwiftUI_Stock_GrabberApp.swift */; };
 		D0712EDB26CE1DF600AA3D7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0712EDA26CE1DF600AA3D7D /* ContentView.swift */; };
 		D0712EDD26CE1DF900AA3D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0712EDC26CE1DF900AA3D7D /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00C6AF926CEFAD70097B75B /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		D00C6AFB26CEFB000097B75B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D0712ED526CE1DF600AA3D7D /* SwiftUI_Stock_Grabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Stock_Grabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0712ED826CE1DF600AA3D7D /* SwiftUI_Stock_GrabberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Stock_GrabberApp.swift; sourceTree = "<group>"; };
 		D0712EDA26CE1DF600AA3D7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				D0712ED826CE1DF600AA3D7D /* SwiftUI_Stock_GrabberApp.swift */,
 				D0712EDA26CE1DF600AA3D7D /* ContentView.swift */,
+				D00C6AFB26CEFB000097B75B /* Model.swift */,
+				D00C6AF926CEFAD70097B75B /* Networking.swift */,
 				D0712EDC26CE1DF900AA3D7D /* Assets.xcassets */,
 				D0712EDE26CE1DF900AA3D7D /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00C6AFA26CEFAD70097B75B /* Networking.swift in Sources */,
 				D0712EDB26CE1DF600AA3D7D /* ContentView.swift in Sources */,
 				D0712ED926CE1DF600AA3D7D /* SwiftUI_Stock_GrabberApp.swift in Sources */,
+				D00C6AFC26CEFB000097B75B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
